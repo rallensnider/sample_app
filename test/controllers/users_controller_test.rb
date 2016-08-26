@@ -5,6 +5,7 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
   def setup
     @user = users(:michael)
     @other_user = users(:archer)
+		@not_activated = users(:loser)
   end
 
   test "should get new" do
@@ -64,5 +65,10 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     end
     assert_redirected_to root_url
   end
+
+	test "should redirect index when not activated" do
+		get user_path(@not_activated)
+		assert_redirected_to root_url
+	end
 
 end
