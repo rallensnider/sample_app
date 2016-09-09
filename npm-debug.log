@@ -1,0 +1,381 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'csslint' ]
+2 info using npm@3.7.1
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData csslint
+8 silly fetchNamedPackageData csslint
+9 silly mapToRegistry name csslint
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/csslint
+13 verbose request uri https://registry.npmjs.org/csslint
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 5:40:19 PM
+16 verbose request id d9cdc488fd50800c
+17 verbose etag "9AUJTBX8UT65NYDJU8VTLBSIT"
+18 http request GET https://registry.npmjs.org/csslint
+19 http 200 https://registry.npmjs.org/csslint
+20 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 verbose headers   etag: '"9YG6OYS4O0WAUP1JF3DLBMU0P"',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '5683',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Fri, 09 Sep 2016 00:40:20 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '275',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-sea1920-SEA',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '2',
+20 verbose headers   'x-timer': 'S1473381620.304291,VS0,VE0',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+21 silly get     etag: '"9YG6OYS4O0WAUP1JF3DLBMU0P"',
+21 silly get     'content-type': 'application/json',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '5683',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Fri, 09 Sep 2016 00:40:20 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '275',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-sea1920-SEA',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '2',
+21 silly get     'x-timer': 'S1473381620.304291,VS0,VE0',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving csslint to /Users/rasnider/.npm/registry.npmjs.org/csslint/.cache.json
+23 verbose correctMkdir /Users/rasnider/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule csslint@1.0.2 checking installable status
+37 silly cache add args [ 'csslint', null ]
+38 verbose cache add spec csslint
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'csslint',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'csslint',
+39 silly cache add   name: 'csslint',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed csslint@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for csslint
+42 info addNameTag [ 'csslint', 'latest' ]
+43 silly mapToRegistry name csslint
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/csslint
+47 verbose addNameTag registry:https://registry.npmjs.org/csslint not in flight; fetching
+48 verbose get https://registry.npmjs.org/csslint not expired, no request
+49 silly addNameTag next cb for csslint with tag latest
+50 silly addNamed csslint@1.0.2
+51 verbose addNamed "1.0.2" is a plain semver version for csslint
+52 silly cache afterAdd csslint@1.0.2
+53 verbose afterAdd /Users/rasnider/.npm/csslint/1.0.2/package/package.json not in flight; writing
+54 verbose correctMkdir /Users/rasnider/.npm correctMkdir not in flight; initializing
+55 verbose afterAdd /Users/rasnider/.npm/csslint/1.0.2/package/package.json written
+56 silly fetchNamedPackageData clone
+57 silly mapToRegistry name clone
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/clone
+61 silly fetchNamedPackageData parserlib
+62 silly mapToRegistry name parserlib
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/parserlib
+66 verbose request uri https://registry.npmjs.org/clone
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 5:40:20 PM
+69 verbose etag "77XLTKE3ZXNN9OV32FFUX8TB0"
+70 http request GET https://registry.npmjs.org/clone
+71 verbose request uri https://registry.npmjs.org/parserlib
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 5:40:20 PM
+74 verbose etag "13DLGAGKHBTZE0M7MNNYXPTA5"
+75 http request GET https://registry.npmjs.org/parserlib
+76 http 304 https://registry.npmjs.org/clone
+77 verbose headers { date: 'Fri, 09 Sep 2016 00:40:20 GMT',
+77 verbose headers   via: '1.1 varnish',
+77 verbose headers   'cache-control': 'max-age=300',
+77 verbose headers   etag: '"77XLTKE3ZXNN9OV32FFUX8TB0"',
+77 verbose headers   age: '35',
+77 verbose headers   connection: 'keep-alive',
+77 verbose headers   'x-served-by': 'cache-sea1926-SEA',
+77 verbose headers   'x-cache': 'HIT',
+77 verbose headers   'x-cache-hits': '4',
+77 verbose headers   'x-timer': 'S1473381620.952230,VS0,VE0',
+77 verbose headers   vary: 'Accept-Encoding' }
+78 silly get cb [ 304,
+78 silly get   { date: 'Fri, 09 Sep 2016 00:40:20 GMT',
+78 silly get     via: '1.1 varnish',
+78 silly get     'cache-control': 'max-age=300',
+78 silly get     etag: '"77XLTKE3ZXNN9OV32FFUX8TB0"',
+78 silly get     age: '35',
+78 silly get     connection: 'keep-alive',
+78 silly get     'x-served-by': 'cache-sea1926-SEA',
+78 silly get     'x-cache': 'HIT',
+78 silly get     'x-cache-hits': '4',
+78 silly get     'x-timer': 'S1473381620.952230,VS0,VE0',
+78 silly get     vary: 'Accept-Encoding' } ]
+79 verbose etag https://registry.npmjs.org/clone from cache
+80 verbose get saving clone to /Users/rasnider/.npm/registry.npmjs.org/clone/.cache.json
+81 verbose correctMkdir /Users/rasnider/.npm correctMkdir not in flight; initializing
+82 silly resolveWithNewModule clone@1.0.2 checking installable status
+83 silly cache add args [ 'clone@~1.0.0', null ]
+84 verbose cache add spec clone@~1.0.0
+85 silly cache add parsed spec Result {
+85 silly cache add   raw: 'clone@~1.0.0',
+85 silly cache add   scope: null,
+85 silly cache add   escapedName: 'clone',
+85 silly cache add   name: 'clone',
+85 silly cache add   rawSpec: '~1.0.0',
+85 silly cache add   spec: '>=1.0.0 <1.1.0',
+85 silly cache add   type: 'range' }
+86 silly addNamed clone@>=1.0.0 <1.1.0
+87 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for clone
+88 silly addNameRange { name: 'clone', range: '>=1.0.0 <1.1.0', hasData: false }
+89 silly mapToRegistry name clone
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry uri https://registry.npmjs.org/clone
+93 verbose addNameRange registry:https://registry.npmjs.org/clone not in flight; fetching
+94 http 304 https://registry.npmjs.org/parserlib
+95 verbose headers { date: 'Fri, 09 Sep 2016 00:40:20 GMT',
+95 verbose headers   via: '1.1 varnish',
+95 verbose headers   'cache-control': 'max-age=300',
+95 verbose headers   etag: '"13DLGAGKHBTZE0M7MNNYXPTA5"',
+95 verbose headers   age: '275',
+95 verbose headers   connection: 'keep-alive',
+95 verbose headers   'x-served-by': 'cache-sea1926-SEA',
+95 verbose headers   'x-cache': 'HIT',
+95 verbose headers   'x-cache-hits': '2',
+95 verbose headers   'x-timer': 'S1473381620.994265,VS0,VE0',
+95 verbose headers   vary: 'Accept-Encoding' }
+96 silly get cb [ 304,
+96 silly get   { date: 'Fri, 09 Sep 2016 00:40:20 GMT',
+96 silly get     via: '1.1 varnish',
+96 silly get     'cache-control': 'max-age=300',
+96 silly get     etag: '"13DLGAGKHBTZE0M7MNNYXPTA5"',
+96 silly get     age: '275',
+96 silly get     connection: 'keep-alive',
+96 silly get     'x-served-by': 'cache-sea1926-SEA',
+96 silly get     'x-cache': 'HIT',
+96 silly get     'x-cache-hits': '2',
+96 silly get     'x-timer': 'S1473381620.994265,VS0,VE0',
+96 silly get     vary: 'Accept-Encoding' } ]
+97 verbose etag https://registry.npmjs.org/parserlib from cache
+98 verbose get saving parserlib to /Users/rasnider/.npm/registry.npmjs.org/parserlib/.cache.json
+99 verbose correctMkdir /Users/rasnider/.npm correctMkdir not in flight; initializing
+100 silly resolveWithNewModule parserlib@1.0.0 checking installable status
+101 silly cache add args [ 'parserlib@~1.0.0', null ]
+102 verbose cache add spec parserlib@~1.0.0
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'parserlib@~1.0.0',
+103 silly cache add   scope: null,
+103 silly cache add   escapedName: 'parserlib',
+103 silly cache add   name: 'parserlib',
+103 silly cache add   rawSpec: '~1.0.0',
+103 silly cache add   spec: '>=1.0.0 <1.1.0',
+103 silly cache add   type: 'range' }
+104 silly addNamed parserlib@>=1.0.0 <1.1.0
+105 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for parserlib
+106 silly addNameRange { name: 'parserlib', range: '>=1.0.0 <1.1.0', hasData: false }
+107 silly mapToRegistry name parserlib
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/parserlib
+111 verbose addNameRange registry:https://registry.npmjs.org/parserlib not in flight; fetching
+112 verbose get https://registry.npmjs.org/clone not expired, no request
+113 silly addNameRange number 2 { name: 'clone', range: '>=1.0.0 <1.1.0', hasData: true }
+114 silly addNameRange versions [ 'clone',
+114 silly addNameRange   [ '0.0.0',
+114 silly addNameRange     '0.0.1',
+114 silly addNameRange     '0.0.2',
+114 silly addNameRange     '0.0.3',
+114 silly addNameRange     '0.0.4',
+114 silly addNameRange     '0.0.5',
+114 silly addNameRange     '0.0.6',
+114 silly addNameRange     '0.0.7',
+114 silly addNameRange     '0.1.0',
+114 silly addNameRange     '0.1.1',
+114 silly addNameRange     '0.1.2',
+114 silly addNameRange     '0.1.3',
+114 silly addNameRange     '0.1.4',
+114 silly addNameRange     '0.1.5',
+114 silly addNameRange     '0.1.6',
+114 silly addNameRange     '0.1.7',
+114 silly addNameRange     '0.1.8',
+114 silly addNameRange     '0.1.9',
+114 silly addNameRange     '0.1.10',
+114 silly addNameRange     '0.1.11',
+114 silly addNameRange     '0.1.12',
+114 silly addNameRange     '0.1.13',
+114 silly addNameRange     '0.1.14',
+114 silly addNameRange     '0.1.15',
+114 silly addNameRange     '0.1.16',
+114 silly addNameRange     '0.1.17',
+114 silly addNameRange     '0.1.18',
+114 silly addNameRange     '0.2.0',
+114 silly addNameRange     '0.1.19',
+114 silly addNameRange     '1.0.0',
+114 silly addNameRange     '1.0.1',
+114 silly addNameRange     '1.0.2' ] ]
+115 silly addNamed clone@1.0.2
+116 verbose addNamed "1.0.2" is a plain semver version for clone
+117 verbose get https://registry.npmjs.org/parserlib not expired, no request
+118 silly addNameRange number 2 { name: 'parserlib', range: '>=1.0.0 <1.1.0', hasData: true }
+119 silly addNameRange versions [ 'parserlib',
+119 silly addNameRange   [ '0.1.5',
+119 silly addNameRange     '0.1.6',
+119 silly addNameRange     '0.1.8',
+119 silly addNameRange     '0.2.0',
+119 silly addNameRange     '0.2.1',
+119 silly addNameRange     '0.2.2',
+119 silly addNameRange     '0.2.3',
+119 silly addNameRange     '0.2.4',
+119 silly addNameRange     '0.2.5',
+119 silly addNameRange     '1.0.0' ] ]
+120 silly addNamed parserlib@1.0.0
+121 verbose addNamed "1.0.0" is a plain semver version for parserlib
+122 silly cache afterAdd clone@1.0.2
+123 verbose afterAdd /Users/rasnider/.npm/clone/1.0.2/package/package.json not in flight; writing
+124 verbose correctMkdir /Users/rasnider/.npm correctMkdir not in flight; initializing
+125 silly cache afterAdd parserlib@1.0.0
+126 verbose afterAdd /Users/rasnider/.npm/parserlib/1.0.0/package/package.json not in flight; writing
+127 verbose correctMkdir /Users/rasnider/.npm correctMkdir not in flight; initializing
+128 verbose afterAdd /Users/rasnider/.npm/clone/1.0.2/package/package.json written
+129 verbose afterAdd /Users/rasnider/.npm/parserlib/1.0.0/package/package.json written
+130 silly loadAllDepsIntoIdealTree Finishing
+131 silly idealTree:prePrune lib
+131 silly idealTree:prePrune └─┬ csslint@1.0.2
+131 silly idealTree:prePrune   ├── clone@1.0.2
+131 silly idealTree:prePrune   └── parserlib@1.0.0
+132 silly loadIdealTree Finishing
+133 silly currentTree lib
+133 silly currentTree └─┬ csslint@0.10.0
+133 silly currentTree   ├── clone@1.0.2
+133 silly currentTree   └── parserlib@1.0.0
+134 silly idealTree lib
+134 silly idealTree └─┬ csslint@1.0.2
+134 silly idealTree   ├── clone@1.0.2
+134 silly idealTree   └── parserlib@1.0.0
+135 silly generateActionsToTake Starting
+136 silly install generateActionsToTake
+137 silly generateActionsToTake Finishing
+138 silly diffTrees action count 1
+139 silly diffTrees update csslint@1.0.2
+140 silly decomposeActions action count 8
+141 silly decomposeActions fetch csslint@1.0.2
+142 silly decomposeActions extract csslint@1.0.2
+143 silly decomposeActions test csslint@1.0.2
+144 silly decomposeActions preinstall csslint@1.0.2
+145 silly decomposeActions build csslint@1.0.2
+146 silly decomposeActions install csslint@1.0.2
+147 silly decomposeActions postinstall csslint@1.0.2
+148 silly decomposeActions finalize csslint@1.0.2
+149 silly executeActions Starting
+150 silly install executeActions
+151 silly doSerial global-install 0
+152 silly doParallel fetch 1
+153 verbose correctMkdir /Users/rasnider/.npm/_locks correctMkdir not in flight; initializing
+154 verbose lock using /Users/rasnider/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+155 silly doParallel extract 1
+156 silly extract csslint@1.0.2
+157 verbose unbuild lib/node_modules/.staging/csslint-7a022b6f
+158 silly gentlyRm /usr/local/lib/node_modules/.staging/csslint-7a022b6f is being purged from base /usr/local
+159 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/csslint-7a022b6f
+160 verbose tar unpack /Users/rasnider/.npm/csslint/1.0.2/package.tgz
+161 verbose tar unpacking to /usr/local/lib/node_modules/.staging/csslint-7a022b6f
+162 silly gentlyRm /usr/local/lib/node_modules/.staging/csslint-7a022b6f is being purged
+163 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/csslint-7a022b6f
+164 silly gunzTarPerm modes [ '755', '644' ]
+165 silly gunzTarPerm extractEntry package.json
+166 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+167 silly gunzTarPerm extractEntry README.md
+168 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+169 silly gunzTarPerm extractEntry LICENSE
+170 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+171 silly gunzTarPerm extractEntry CHANGELOG
+172 silly gunzTarPerm modified mode [ 'CHANGELOG', 438, 420 ]
+173 silly gunzTarPerm extractEntry dist/cli.js
+174 silly gunzTarPerm modified mode [ 'dist/cli.js', 438, 420 ]
+175 silly gunzTarPerm extractEntry dist/csslint-node.js
+176 silly gunzTarPerm modified mode [ 'dist/csslint-node.js', 438, 420 ]
+177 silly gentlyRm /usr/local/lib/node_modules/.staging/csslint-7a022b6f/node_modules is being purged
+178 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/csslint-7a022b6f/node_modules
+179 silly doParallel preinstall 1
+180 silly preinstall csslint@1.0.2 /usr/local/lib/node_modules/.staging/csslint-7a022b6f
+181 info lifecycle csslint@1.0.2~preinstall: csslint@1.0.2
+182 silly lifecycle csslint@1.0.2~preinstall: no script for preinstall, continuing
+183 silly doReverseSerial remove 0
+184 silly doSerial move 0
+185 silly doSerial finalize 1
+186 silly finalize /usr/local/lib/node_modules/csslint
+187 silly doSerial build 1
+188 silly build csslint@1.0.2
+189 info linkStuff csslint@1.0.2
+190 silly linkStuff csslint@1.0.2 has /usr/local/lib/node_modules as its parent node_modules
+191 silly linkStuff csslint@1.0.2 is part of a global install
+192 silly linkStuff csslint@1.0.2 is installed into a global node_modules
+193 silly linkStuff csslint@1.0.2 is installed into the top-level global node_modules
+194 verbose linkBins csslint@1.0.2
+195 verbose link bins [ { csslint: './dist/cli.js' }, '/usr/local/bin', true ]
+196 verbose linkMans csslint@1.0.2
+197 silly gentlyRm /usr/local/bin/csslint is being gently removed
+198 silly gentlyRm parent.path = /usr/local
+199 silly gentlyRm parent.managed = /usr/local is in /usr/local
+200 silly gentlyRm target.path =  /usr/local/bin/csslint
+201 silly gentlyRm target.symlink = ../lib/node_modules/csslint/cli.js
+202 silly gentlyRm target.managed = false
+203 silly gentlyRm target.inParent =  false
+204 verbose unlock done using /Users/rasnider/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+205 silly rollbackFailedOptional Starting
+206 silly rollbackFailedOptional Finishing
+207 silly runTopLevelLifecycles Starting
+208 silly runTopLevelLifecycles Finishing
+209 silly install printInstalled
+210 verbose stack Error: Refusing to delete /usr/local/bin/csslint: ../lib/node_modules/csslint/cli.js symlink target is not controlled by npm /usr/local
+210 verbose stack     at clobberFail (/usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:162:12)
+210 verbose stack     at isSafeToRm (/usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:152:15)
+210 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:93:5
+210 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:7:26)
+210 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+210 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:179:14
+210 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:11:16
+210 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:11:16
+210 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:11:16
+210 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:11:16
+211 verbose cwd /Users/rasnider/Developer/RailsTutorial/workspace/sample_app
+212 error Darwin 15.6.0
+213 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "csslint"
+214 error node v4.2.6
+215 error npm  v3.7.1
+216 error path /usr/local/bin/csslint
+217 error code EEXIST
+218 error Refusing to delete /usr/local/bin/csslint: ../lib/node_modules/csslint/cli.js symlink target is not controlled by npm /usr/local
+219 error File exists: /usr/local/bin/csslint
+220 error Move it away, and try again.
+221 verbose exit [ 1, true ]
